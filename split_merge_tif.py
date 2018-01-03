@@ -24,7 +24,8 @@ def merge_img():
 	merge single tif into a tif volume
 	'''
 
-	path = '/home/zhixuhao/Downloads/imgs_mask_test_server2/'
+	# path = '/home/zhixuhao/Downloads/imgs_mask_test_server2/'
+	path='/home/redeast/Project/unet/data/test/'
 	imgdir = TIFF3D.open("test_mask_volume_server2.tif",'w')
 	imgarr = []
 	for i in range(30):
